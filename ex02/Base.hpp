@@ -6,10 +6,11 @@ class Base
 public:
     Base();
     Base(const Base &base);
-    ~Base();
+    virtual ~Base();
 
     Base &operator=(const Base &base);
 
+	Base *generate(void);
 };
 
 #endif

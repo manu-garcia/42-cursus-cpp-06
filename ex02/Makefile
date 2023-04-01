@@ -2,6 +2,9 @@ NAME 		= realtype
 SRC_DIR		= ./
 SRC 		= 	$(SRC_DIR)/main.cpp \
 				$(SRC_DIR)/Base.cpp \
+				$(SRC_DIR)/A.cpp \
+				$(SRC_DIR)/B.cpp \
+				$(SRC_DIR)/C.cpp \
 
 CC 			= c++
 INCLUDES	=
